@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
   s.requires_arc = true 
   s.source       = { :git => "https://github.com/liuzhanyu/O2Specs.git", :tag => "v1.0"}
-  s.source_files  = "Tools/**/*.{h,m}"
+  s.source_files  = "Tool/**/*.{h,m}”
   s.frameworks = 'UIKit','Foundation'
 
   s.module_name = 'O2Specs'
